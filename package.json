@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "cjs": "rollup -c configs/cjs.config.js",
-    "es": "rollup -c configs/es.config.js"
+    "es": "rollup -c configs/es.config.js",
+    "system": "rollup -c configs/system.config.js",
+    "amd": "rollup -c configs/amd.config.js",
+    "umd": "rollup -c configs/umd.config.js",
+    "iife": "rollup -c configs/iife.config.js"
   },
   "keywords": [],
   "author": "",
